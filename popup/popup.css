@@ -1,0 +1,32 @@
+
+body {
+    width: 400px;
+}
+
+.quick-edit-title {
+    line-height: 20px;
+}
+.quick-edit-title small {
+    float: right;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.history-title {
+    margin-bottom: 0;
+}
+
+.history {
+    padding: 0;
+    font-size: smaller;
+    margin-top: 0;
+}
+
+.history li {
+    border-bottom: 1px solid #DDD;
+    padding: 10px 0;
+    word-wrap: break-word;
+}
+.history li:last-child {
+    border-bottom: none;
+}
